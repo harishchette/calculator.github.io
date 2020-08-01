@@ -79,12 +79,12 @@ background-color:white;
 <div class="row">
 <div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value=" % "  onclick="forms.text.value+='%' "></div>
 <div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value=" = "  onclick="forms.text.value=eval(forms.text.value) " class="g" ></div>
-<div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value=" ^ "  onclick="forms.text.value='^' "></div>
+<div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value='^' "  onclick="forms.text.value+='**' "></div>
 </div><br>
 <div class="row">
 <div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value="  . "  onclick="forms.text.value+='.' "></div>
 <div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value=" C " style="width=10px"  onclick="forms.text.value=' ' " ></div>
-<div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value=" B "  onclick="forms.text.value= forms.text.value.slice(0,-1) " ></div>
+<div class="col-4 col-xl-4 col-lg-4 col-sm-4"><input type="button"  value=" B "  onclick="forms.text.value= (forms.text.value).slice(0,-1) " ></div>
 </div><br>
 </form>
 </div>
